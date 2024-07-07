@@ -122,12 +122,24 @@ def print_summary(results):
     table.add_column("Deleted Snapshots", style="blue")
     table.add_column("Failed Deletions", style="yellow")
 
+    total_valid = 0
+    total_invalid = 0
+    total_deleted = 0
+    total_failed = 0
+
     for subscription_name, data in results.items():
         valid_count = len(data['deleted'])
         invalid_count = len(data['invalid'])
         deleted_count = len(data['deleted'])
         failed_count = len(data['failed'])
         table.add_row(subscription_name, str(valid_count), str(invalid_count), str(deleted_count), str(failed_count))
+
+        total_valid += valid_count
+        total_invalid += invalid_count
+        total_deleted += deleted_count
+        total_failed += failed_count
+
+    table.add_row("Total", str(total_valid), str(total_invalid), str(total_deleted), str(total_failed), style="bold")
 
     console.print(table)
 
