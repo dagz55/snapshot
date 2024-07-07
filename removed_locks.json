@@ -1,0 +1,26 @@
+[
+  {
+    "timestamp": "2024-07-05T23:46:34.398897",
+    "subscription_id": "AZ-ENTAPP-PROD-01",
+    "resource_group": "AZ-ENTAPP-PROD-01-CLDS-PROD-WESTUS-RG-01",
+    "lock_name": "AZ-ENTAPP-PROD-01-CLDS-PROD-WESTUS-RG-01-lock",
+    "lock_type": "CanNotDelete",
+    "notes": "Resource group lock"
+  },
+  {
+    "timestamp": "2024-07-06T00:53:15.231692",
+    "subscription_id": "az-entapp-prod-01",
+    "resource_group": "az-entapp-prod-01-clds-prod-westus-rg-01",
+    "lock_name": "az-entapp-prod-01-clds-prod-westus-rg-01-lock",
+    "lock_type": "CanNotDelete",
+    "notes": null
+  },
+  {
+    "timestamp": "2024-07-06T02:25:35.578962",
+    "subscription_id": "az-entapp-prod-01",
+    "resource_group": "az-entapp-prod-01-jamfad-prod-westus-rg-01",
+    "lock_name": "az-entapp-prod-01-jamfad-prod-westus-rg-01-lock",
+    "lock_type": "CanNotDelete",
+    "notes": null
+  }
+]

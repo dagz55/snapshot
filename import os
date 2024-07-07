@@ -1,0 +1,66 @@
+import os
+import datetime
+from azure.identity import DefaultAzureCredential
+from azure.mgmt.resource import ResourceManagementClient
+
+# Define the resource groups
+resource_groups = [
+    "AZ-CORE-PROD-01-ESNS-PROD-EASTUS-RG-01",
+    "AZ-CORE-PROD-01-ESAT-PROD-WESTUS-RG-01",
+    "AZ-ENTAPP-PROD-01-CLDS-PROD-WESTUS-RG-01",
+    "AZ-CORE-PROD-01-ITKA-PROD-EASTUS-RG-01",
+    "AZ-CORE-PROD-01-ESAA-PROD-WESTUS-RG-01"
+]
+
+# Log file
+log_file = "scope_lock_log.txt"
+
+# Function to log actions
+def log_action(message):
+    timestamp = datetime.datetime.now().strftime("%Y-%m-%d %H:%M:%S")
+    log_entry = f"{timestamp} - {message}"
+    with open(log_file, "a") as f:
+        f.write(log_entry + "\n")
+
+# Azure authentication
+credential = DefaultAzureCredential()
+subscription_id = os.environ.get("AZURE_SUBSCRIPTION_ID")
+resource_client = ResourceManagementClient(credential, subscription_id)
+
+# Prompt user for action
+action = input("Do you want to 'delete' or 'restore' scope locks? Enter 'delete' or 'restore': ")
+
+if action == 'delete':
+    # Remove locks
+    for rg in resource_groups:
+        lock_name = f"{rg}-lock"
+        try:
+            resource_client.management_locks.delete_at_resource_group_level(rg, lock_name)
+            log_action(f"Removed lock {lock_name} from resource group {rg}")
+        except Exception as e:
+            log_action(f"Failed to remove lock {lock_name} from resource group {rg}: {str(e)}")
+    log_action("Scope locks deletion completed")
+
+elif action == 'restore':
+    # Restore locks
+    for rg in resource_groups:
+        lock_name = f"{rg}-lock"
+        try:
+            resource_client.management_locks.create_or_update_at_resource_group_level(
+                rg,
+                lock_name,
+                {
+                    'level': 'CanNotDelete',
+                    'notes': 'Resource group lock'
+                }
+            )
+            log_action(f"Restored lock {lock_name} to resource group {rg}")
+        except Exception as e:
+            log_action(f"Failed to restore lock {lock_name} to resource group {rg}: {str(e)}")
+    log_action("Scope locks restoration completed")
+
+else:
+    print("Invalid action. Please run the script again and enter 'delete' or 'restore'.")
+    log_action("Invalid action entered by user")
+
+log_action("Script completed successfully")
