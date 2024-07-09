@@ -49,7 +49,7 @@ The following Python modules are required to run the Azure Snapshot Manager:
 
 2. Navigate to the project directory:
    ```
-   cd azure-snapshot-manager
+   cd snapshot
    ```
 
 3. Install the required Python packages:
