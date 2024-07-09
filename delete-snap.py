@@ -8,11 +8,13 @@ from rich.console import Console
 from rich.progress import Progress
 from rich.table import Table
 import logging
+import traceback
+import csv
 
 console = Console()
 
 # Set up logging
-logging.basicConfig(filename='azure_manager.log', level=logging.INFO,
+logging.basicConfig(filename='azure_manager.log', level=logging.DEBUG,
                     format='%(asctime)s:%(levelname)s:%(message)s')
 
 def run_az_command(command):
@@ -30,6 +32,7 @@ def run_az_command(command):
         logging.error(f"Command failed: {e.cmd}. Error: {e.stderr}")
         raise
     except Exception as e:
+        logging.error(f"Error in run_az_command: {str(e)}")
         return f"Error: {str(e)}"
 
 def get_subscription_names():
@@ -40,13 +43,16 @@ def get_subscription_names():
         return {sub['id']: sub['name'] for sub in subscriptions}
     return {}
 
-def switch_subscription(subscription):
-    try:
-        run_az_command(['az', 'account', 'set', '--subscription', subscription])
-        console.print(f"[yellow]Switched to subscription: {subscription}[/yellow]")
-    except Exception as e:
-        logging.error(f"Failed to switch to subscription {subscription}: {str(e)}")
-        raise
+def switch_subscription(subscription, current_subscription):
+    if subscription != current_subscription:
+        try:
+            run_az_command(['az', 'account', 'set', '--subscription', subscription])
+            console.print(f"[green]✔ Switched to subscription: {subscription}[/green]")
+            return subscription
+        except Exception as e:
+            logging.error(f"Failed to switch to subscription {subscription}: {str(e)}")
+            raise
+    return current_subscription
 
 def get_resource_groups_from_snapshots(snapshot_ids):
     resource_groups = set()
@@ -58,8 +64,9 @@ def get_resource_groups_from_snapshots(snapshot_ids):
 
 def check_and_remove_scope_locks(resource_groups):
     removed_locks = []
+    current_subscription = None
     for subscription_id, resource_group in resource_groups:
-        switch_subscription(subscription_id)
+        current_subscription = switch_subscription(subscription_id, current_subscription)
         command = f"az lock list --resource-group {resource_group} --query '[].{{name:name, level:level}}' -o json"
         locks = json.loads(run_az_command(command))
         for lock in locks:
@@ -68,37 +75,49 @@ def check_and_remove_scope_locks(resource_groups):
                 result = run_az_command(remove_command)
                 if not result.startswith("Error:"):
                     removed_locks.append((subscription_id, resource_group, lock['name']))
-                    console.print(f"[green]Removed lock '{lock['name']}' from resource group '{resource_group}'[/green]")
+                    console.print(f"[green]✔ Removed lock '{lock['name']}' from resource group '{resource_group}'[/green]")
                 else:
                     console.print(f"[red]Failed to remove lock '{lock['name']}' from resource group '{resource_group}': {result}[/red]")
     return removed_locks
 
 def restore_scope_locks(removed_locks):
+    current_subscription = None
+    restored_locks = 0
     for subscription_id, resource_group, lock_name in removed_locks:
-        switch_subscription(subscription_id)
+        current_subscription = switch_subscription(subscription_id, current_subscription)
         command = f"az lock create --name {lock_name} --resource-group {resource_group} --lock-type CanNotDelete"
         result = run_az_command(command)
         if not result.startswith("Error:"):
-            console.print(f"[green]Restored lock '{lock_name}' to resource group '{resource_group}'[/green]")
+            console.print(f"[green]✔ Restored lock '{lock_name}' to resource group '{resource_group}'[/green]")
+            restored_locks += 1
         else:
             console.print(f"[red]Failed to restore lock '{lock_name}' to resource group '{resource_group}': {result}[/red]")
+    return restored_locks
 
 def process_snapshot(snapshot_id, subscription_names):
-    parts = snapshot_id.split('/')
-    subscription_id = parts[2]
-    subscription_name = subscription_names.get(subscription_id, subscription_id)
-    snapshot_name = parts[-1]
+    try:
+        parts = snapshot_id.split('/')
+        if len(parts) < 9:
+            logging.error(f"Invalid snapshot ID format: {snapshot_id}")
+            return None, "invalid", (snapshot_id, "Invalid snapshot ID format")
+        
+        subscription_id = parts[2]
+        subscription_name = subscription_names.get(subscription_id, subscription_id)
+        snapshot_name = parts[-1]
 
-    # Validate and delete snapshot
-    command = f"az snapshot delete --ids {snapshot_id}"
-    result = run_az_command(command)
+        # Validate and delete snapshot
+        command = f"az snapshot delete --ids {snapshot_id}"
+        result = run_az_command(command)
 
-    if not result.startswith("Error:"):
-        return subscription_name, "deleted", snapshot_name
-    elif "ResourceNotFound" in result:
-        return subscription_name, "invalid", (snapshot_name, result)
-    else:
-        return subscription_name, "failed", (snapshot_name, result)
+        if not result.startswith("Error:"):
+            return subscription_name, "deleted", snapshot_name
+        elif "ResourceNotFound" in result:
+            return subscription_name, "invalid", (snapshot_name, result)
+        else:
+            return subscription_name, "failed", (snapshot_name, result)
+    except Exception as e:
+        logging.error(f"Error processing snapshot {snapshot_id}: {str(e)}")
+        return None, "error", (snapshot_id, str(e))
 
 def validate_and_delete_snapshots(snapshot_ids, subscription_names):
     results = defaultdict(lambda: defaultdict(list))
@@ -108,8 +127,14 @@ def validate_and_delete_snapshots(snapshot_ids, subscription_names):
         with ThreadPoolExecutor(max_workers=10) as executor:
             future_to_snapshot = {executor.submit(process_snapshot, snapshot_id, subscription_names): snapshot_id for snapshot_id in snapshot_ids}
             for future in as_completed(future_to_snapshot):
-                subscription_name, status, data = future.result()
-                results[subscription_name][status].append(data)
+                try:
+                    subscription_name, status, data = future.result()
+                    if subscription_name:
+                        results[subscription_name][status].append(data)
+                    else:
+                        results["Unknown"][status].append(data)
+                except Exception as e:
+                    logging.error(f"Error processing future: {str(e)}")
                 progress.update(task, advance=1)
 
     return results
@@ -147,7 +172,7 @@ def print_detailed_errors(results):
     console.print("\n[bold red]Detailed Error Information:[/bold red]")
 
     for subscription_name, data in results.items():
-        if data['invalid'] or data['failed']:
+        if data['invalid'] or data['failed'] or data['error']:
             console.print(f"\n[cyan]Subscription: {subscription_name}[/cyan]")
 
             if data['invalid']:
@@ -159,6 +184,25 @@ def print_detailed_errors(results):
                 console.print("\n[bold]Failed Deletions:[/bold]")
                 for snapshot, error in data['failed']:
                     console.print(f"  [yellow]• {snapshot}: {error}[/yellow]")
+
+            if data['error']:
+                console.print("\n[bold]Errors:[/bold]")
+                for snapshot, error in data['error']:
+                    console.print(f"  [red]• {snapshot}: {error}[/red]")
+
+def export_to_csv(results, filename):
+    with open(filename, 'w', newline='') as csvfile:
+        csvwriter = csv.writer(csvfile)
+        csvwriter.writerow(['Subscription', 'Status', 'Snapshot', 'Error'])
+        for subscription, data in results.items():
+            for status, snapshots in data.items():
+                if status == 'deleted':
+                    for snapshot in snapshots:
+                        csvwriter.writerow([subscription, status, snapshot, ''])
+                else:
+                    for snapshot, error in snapshots:
+                        csvwriter.writerow([subscription, status, snapshot, error])
+    console.print(f"[green]✔ Results exported to {filename}[/green]")
 
 def main():
     console.print("[cyan]Azure Snapshot Manager[/cyan]")
@@ -183,27 +227,41 @@ def main():
             console.print(f"[bold red]Error reading file {filename}: {e}[/bold red]")
             return
 
+        if len(snapshot_ids) > 100:
+            confirm = console.input(f"[yellow]You are about to delete {len(snapshot_ids)} snapshots. Are you sure you want to proceed? (y/n): [/yellow]")
+            if confirm.lower() != 'y':
+                console.print("[red]Operation cancelled.[/red]")
+                return
+
         resource_groups = get_resource_groups_from_snapshots(snapshot_ids)
-        console.print(f"[yellow]Found {len(resource_groups)} resource groups from snapshot list.[/yellow]")
+        console.print(f"[green]✔ Found {len(resource_groups)} resource groups from snapshot list.[/green]")
 
         removed_locks = check_and_remove_scope_locks(resource_groups)
-        console.print(f"[yellow]Removed {len(removed_locks)} scope locks.[/yellow]")
+        console.print(f"[green]✔ Removed {len(removed_locks)} scope locks.[/green]")
 
         results = validate_and_delete_snapshots(snapshot_ids, subscription_names)
-        print_summary(results)
-        print_detailed_errors(results)
 
         console.print("[yellow]Restoring removed scope locks...[/yellow]")
-        restore_scope_locks(removed_locks)
+        restored_locks = restore_scope_locks(removed_locks)
+        console.print(f"[green]✔ Restored {restored_locks} scope locks.[/green]")
+
+        print_summary(results)
+        print_detailed_errors(results)
 
         end_time = time.time()
         total_runtime = end_time - start_time
 
-        console.print(f"\n[bold blue]Total runtime: {total_runtime:.2f} seconds[/bold blue]")
+        console.print(f"\n[bold green]✔ Total runtime: {total_runtime:.2f} seconds[/bold green]")
         
+        export_csv = console.input("Do you want to export the results to a CSV file? (y/n): ")
+        if export_csv.lower() == 'y':
+            csv_filename = console.input("Enter the CSV filename to export results: ")
+            export_to_csv(results, csv_filename)
+
     except Exception as e:
-        logging.error(f"An unexpected error occurred: {str(e)}")
+        logging.error(f"An unexpected error occurred: {str(e)}\n{traceback.format_exc()}")
         console.print(f"[red]An unexpected error occurred: {str(e)}[/red]")
+        console.print("[yellow]Please check the azure_manager.log file for more details.[/yellow]")
 
 if __name__ == "__main__":
     main()
