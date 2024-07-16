@@ -1,0 +1,8 @@
+2024-07-16 04:42:51,540:ERROR:Unexpected error: [Errno 2] No such file or directory: 'az'
+2024-07-16 04:42:51,541:ERROR:Failed to switch to subscription az-entapp-prod-01: [Errno 2] No such file or directory: 'az'
+2024-07-16 04:42:51,544:ERROR:Unexpected error: [Errno 2] No such file or directory: 'az'
+2024-07-16 04:42:51,544:ERROR:Failed to switch to subscription az-entaks-prod-01: [Errno 2] No such file or directory: 'az'
+2024-07-16 04:42:51,548:ERROR:Unexpected error: [Errno 2] No such file or directory: 'az'
+2024-07-16 04:42:51,548:ERROR:Failed to switch to subscription az-core-prod-01: [Errno 2] No such file or directory: 'az'
+2024-07-16 04:42:51,551:ERROR:Unexpected error: [Errno 2] No such file or directory: 'az'
+2024-07-16 04:42:51,551:ERROR:Failed to switch to subscription az-resibm-prod-01: [Errno 2] No such file or directory: 'az'
