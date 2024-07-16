@@ -13,6 +13,13 @@ data = {
 df = pd.DataFrame(data)
 
 # Displaying the DataFrame to the user
-import ace_tools as tools; tools.display_dataframe_to_user(name="Travel Costs", dataframe=df)
+import sys
+import os
+
+# Add the directory containing ace_tools to Python's path
+sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+
+import ace_tools as tools
+tools.display_dataframe_to_user(name="Travel Costs", dataframe=df)
 
 df
