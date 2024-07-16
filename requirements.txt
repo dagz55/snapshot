@@ -1,0 +1,3 @@
+rich
+tabulate
+aiohttp

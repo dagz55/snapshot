@@ -1,0 +1,14 @@
+conda init
+conda create -n snpenv python=3.10
+conda activate snpenv
+source ~/.bashrc
+conda activate snpenv
+python validate-snap.py
+pip install rich
+pip install tabulate
+pip install aiohttp
+sudo apt remove azure-cli -y && sudo apt autoremove -y
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
+az login
+python delete-snap.py
+cat ro2.2.deleted-snaps.csv
