@@ -18,6 +18,9 @@ Azure Snapshot Manager is a powerful Python script that helps you validate and d
 - 🖥️ User-friendly console interface with progress tracking
 
 ## 🛠️ Requirements
+rich
+tabulate
+aiohttp
 
 ### Python Version
 
