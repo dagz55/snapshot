@@ -6,3 +6,21 @@
 2024-07-16 04:42:51,548:ERROR:Failed to switch to subscription az-core-prod-01: [Errno 2] No such file or directory: 'az'
 2024-07-16 04:42:51,551:ERROR:Unexpected error: [Errno 2] No such file or directory: 'az'
 2024-07-16 04:42:51,551:ERROR:Failed to switch to subscription az-resibm-prod-01: [Errno 2] No such file or directory: 'az'
+2024-07-20 11:31:50,433:ERROR:An unexpected error occurred: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/workspaces/snapshot/v2-delete-snap.py", line 249, in main
+    removed_locks = check_and_remove_scope_locks(resource_groups)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/snapshot/v2-delete-snap.py", line 71, in check_and_remove_scope_locks
+    locks = json.loads(run_az_command(command))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
