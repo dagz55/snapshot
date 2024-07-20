@@ -57,7 +57,7 @@ The following Python modules are required to run the Azure Snapshot Manager:
 
 3. Install the required Python packages:
    ```
-   pip install rich
+   pip install -r requirements.txt
    ```
 
 4. Ensure you have the Azure CLI installed and configured with the necessary permissions.
@@ -102,7 +102,7 @@ This project is [MIT](https://choosealicense.com/licenses/mit/) licensed.
 ## 👏 Acknowledgements
 
 - Thanks to the Azure CLI team for providing a robust command-line interface.
-- Special thanks to the creators of the `rich` library for beautiful console output.
+- Special thanks to the creators of the `rich` library for aesthetically looking console output.
 
 ---
 
