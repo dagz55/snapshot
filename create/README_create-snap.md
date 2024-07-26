@@ -25,12 +25,12 @@ Before you begin, ensure you have the following:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/yourusername/awesome-azure-snapshot-creator.git
+   git clone https://github.com/rsuar29/awesome-azure-snapshot-creator.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd awesome-azure-snapshot-creator
+   cd azure-snapshot
    ```
 
 3. Install required packages:
@@ -61,7 +61,7 @@ The script provides:
 
 ## 🤝 Contributing
 
-Contributions are what make the open-source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions make the open-source community an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -87,4 +87,4 @@ Project Link: [https://github.com/yourusername/awesome-azure-snapshot-creator](h
 
 ---
 
-Made with ❤️ and Python
+Made with ❤️ and 🐍
