@@ -75,7 +75,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 ## 📞 Contact
 
-Your Name - [@yourtwitter](https://twitter.com/yourtwitter) - email@example.com
+Robert Suarez [rsuar29] - [@dagz55](https://twitter.com/dagz55) - rsuar29@albertsons.com
 
 Project Link: [https://github.com/yourusername/awesome-azure-snapshot-creator](https://github.com/yourusername/awesome-azure-snapshot-creator)
 
