@@ -1,0 +1,3 @@
+CHG1234567
+Creating snapshot for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/emju-emju-dev-database-vm-dgm011adc
+Subscription ID: 81d43de9-7921-4b5c-bce8-bcd2bec10a13

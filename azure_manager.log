@@ -24,3 +24,925 @@ Traceback (most recent call last):
     raise JSONDecodeError("Expecting value", s, err.value) from None
 json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
 
+2024-07-26 09:53:02,878:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-dvji-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010b55']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 99f18bf6-da4f-4773-b6d7-5758bcbd4101 Correlation ID: f4ad46af-97dc-490e-966b-1b13fa5041f2 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:02,953:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esja-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010af2']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 99f18bf6-da4f-4773-b6d7-5758bcbd4101 Correlation ID: f4ad46af-97dc-490e-966b-1b13fa5041f2 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:03,027:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esja-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010af3']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 99f18bf6-da4f-4773-b6d7-5758bcbd4101 Correlation ID: f4ad46af-97dc-490e-966b-1b13fa5041f2 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:03,040:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-jsso-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010af7']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 99f18bf6-da4f-4773-b6d7-5758bcbd4101 Correlation ID: f4ad46af-97dc-490e-966b-1b13fa5041f2 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:03,089:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-dvji-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010b54']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 99f18bf6-da4f-4773-b6d7-5758bcbd4101 Correlation ID: f4ad46af-97dc-490e-966b-1b13fa5041f2 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:03,089:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esja-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010af1']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 99f18bf6-da4f-4773-b6d7-5758bcbd4101 Correlation ID: f4ad46af-97dc-490e-966b-1b13fa5041f2 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:03,189:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esat-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010ace']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 81db728e-4afe-4786-93ee-1655363a4401 Correlation ID: 804fa552-b531-4276-b7c7-66d2a583f857 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:03,282:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-itsv-nonprod-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010ae9']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:03,474:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esgh-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010c41']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: a3f9873a-2c30-4ac3-870b-c33599f43c01 Correlation ID: 06eefb95-fb9f-4208-821a-f3b757627094 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:03,480:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-es01-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010b70']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 11cc299f-b0ea-4d02-9521-e659c5731401 Correlation ID: 67dacabf-625f-43cb-bad9-66b86c261e8e Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:10,826:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-iaiq-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010db4']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:10,962:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esgh-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010c42']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:10,966:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010eb7']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:11,020:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-iaiq-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010db3']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:11,099:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-iaiq-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010db6']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:11,154:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-iaiq-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010db5']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:11,201:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/az-entaks-nonprod-02-uawa1-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010e72']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:11,362:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esff-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010f1d']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:11,386:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esff-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010f1e']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:11,460:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esff-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010f1f']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:18,687:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esia-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0110b1']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:18,836:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-jsso-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm010f44']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:18,872:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/72f74a79-764f-41bb-9b4c-f9b4ffd06d4f/resourceGroups/az-entaks-nonprod-01-eiot-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0110a0']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:18,913:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esia-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0110af']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:18,942:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-essb-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0111b3']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:19,074:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0110be']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:19,177:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/az-phiapp-nonprod-01-ebse-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01117e']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:19,194:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-itsv-nonprod-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0110f3']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:19,525:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-espr-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011197']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:19,639:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-essb-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0111b4']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:26,264:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-iatn-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112c4']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:26,831:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/72f74a79-764f-41bb-9b4c-f9b4ffd06d4f/resourceGroups/az-entaks-nonprod-01-eiot-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011291']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:26,845:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112cb']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:26,883:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-iatn-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112c5']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:26,928:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112cc']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:26,936:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112ca']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:26,996:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112cd']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:27,158:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112cf']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:27,664:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112d3']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:27,848:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112d4']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:34,364:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112d5']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:34,632:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112d7']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:34,740:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112d6']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:34,833:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112dc']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:34,921:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112da']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:34,990:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112d8']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:34,996:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112d9']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:35,101:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112db']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:35,329:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112dd']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:35,571:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112de']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:42,627:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114d0']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:42,781:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011363']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:42,827:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112e0']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:42,886:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0112df']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:43,071:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114cf']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:43,181:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114d3']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:43,251:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114d1']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:43,329:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011364']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:43,445:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114d4']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:43,518:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114d2']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:50,463:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114d8']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:50,504:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114d9']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:50,633:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114d7']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:50,746:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114d6']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:51,000:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114db']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:51,339:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebss-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011581']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:51,356:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebss-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011582']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:51,417:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebss-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011583']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:51,450:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0114da']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:51,538:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebss-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011584']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:58,667:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebss-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011585']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:58,731:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esat-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0115d3']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:58,731:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esaa-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01161c']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:59,000:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esaa-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01161d']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:59,027:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esobf-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01167d']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:59,038:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esaa-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01161b']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:59,059:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011696']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:59,260:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-jsso-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0116c9']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:59,574:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0116a2']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:53:59,593:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esat-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01169c']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 72d2183d-b778-4820-b666-a6cfa8952800 Correlation ID: 28f486a0-9ab4-430e-8339-c2d2eb597660 Timestamp: 2024-07-26 09:53:00Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:06,596:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esja-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011748']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: cc05e5af-2d3b-4814-b97d-340f9fa6fc00 Correlation ID: fcbce927-7496-45bc-97ba-dbba70e9c3fa Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:06,610:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0117ea']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 15c82fff-fd7f-4a9a-a697-9d1572286700 Correlation ID: dc8f749c-9c97-48a5-91d4-96a2ee1e2eb6 Timestamp: 2024-07-26 09:54:03Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:06,913:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/3f64d803-6d97-4d15-aad3-aaac35bd5c3f/resourceGroups/az-resibm-nonprod-01-ebis-dev2-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011831']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: e117646e-0d4f-4e65-aa00-b5f585f72301 Correlation ID: 43a922c7-55b0-419f-9291-c31131ce0cb0 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:07,021:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esobf-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011896']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: e117646e-0d4f-4e65-aa00-b5f585f72301 Correlation ID: 43a922c7-55b0-419f-9291-c31131ce0cb0 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:07,041:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-iavc-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01187d']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: e117646e-0d4f-4e65-aa00-b5f585f72301 Correlation ID: 43a922c7-55b0-419f-9291-c31131ce0cb0 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:07,048:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esja-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011746']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:07,089:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-iavc-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01187e']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 7b8e1809-ccf8-49f1-bdee-f89930821f01 Correlation ID: 4b9049ba-f506-4f71-9afe-503ac6a13ece Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:07,155:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esja-dev-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011747']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 7b8e1809-ccf8-49f1-bdee-f89930821f01 Correlation ID: 4b9049ba-f506-4f71-9afe-503ac6a13ece Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:07,276:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0117eb']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:07,605:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-dbia-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0118a9']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:14,604:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01194c']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:14,698:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-dbia-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0118ab']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:14,754:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-dbia-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0118aa']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:14,804:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esobf-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011942']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:15,002:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-dbia-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0118ac']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:15,034:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esobf-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0118d7']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:15,076:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01194d']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:15,146:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01194f']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:15,190:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev1-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01194e']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:15,338:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011951']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:22,560:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011954']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:22,574:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01196b']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:22,622:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01196c']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:22,922:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01196d']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:22,932:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esat-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0119b1']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:23,008:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esns-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm01196e']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:23,466:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esat-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0119b2']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:23,533:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esja-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011a05']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:23,567:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esat-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0119e8']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:23,595:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esia-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm0119e4']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:30,281:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/3f64d803-6d97-4d15-aad3-aaac35bd5c3f/resourceGroups/az-resibm-nonprod-01-ebis-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011a56']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:30,648:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/3f64d803-6d97-4d15-aad3-aaac35bd5c3f/resourceGroups/az-resibm-nonprod-01-ebis-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011a55']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:30,679:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-iacspm-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011a61']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:30,727:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-iafa-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011a44']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:31,023:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/3f64d803-6d97-4d15-aad3-aaac35bd5c3f/resourceGroups/az-resibm-nonprod-01-ebis-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011a5e']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:31,080:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/3f64d803-6d97-4d15-aad3-aaac35bd5c3f/resourceGroups/az-resibm-nonprod-01-ebis-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011a60']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:31,141:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/3f64d803-6d97-4d15-aad3-aaac35bd5c3f/resourceGroups/az-resibm-nonprod-01-ebis-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011a5f']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:31,529:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-jamfad-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011a74']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:31,617:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011aaa']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:31,768:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011aa9']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:38,031:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011aab']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:38,770:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esja-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011b3d']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:39,180:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011aac']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:39,289:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-dvco-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_zduwdvcoconfdev002']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:39,306:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-afap-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgm011bcb']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:39,358:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-mqtm-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgv011dcc']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:39,455:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-esia-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_sgm010cc7']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:39,480:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-mqtm-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_dgv011dcd']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:39,497:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-dvco-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_zduwdvcoconfdev001']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:39,498:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-tsis-sb-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_sgm01125c']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 09:54:40,174:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-dvco-stg-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632803_zsuwdvcoconfstg001']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: ef6a9f02-a854-4404-8778-751c32464801 Correlation ID: 9c040f36-456e-4222-8c71-b0daa21c7350 Timestamp: 2024-07-26 09:54:04Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,164:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgv011bac_CHG1234567_20240726185844    ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 56233651-b51b-416b-a818-5aa919c65a01 Correlation ID: c8613b35-877a-478a-8bb9-5c6406ffe24f Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,174:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgm01117e_CHG1234567_20240726185547    ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 08290559-ae32-475b-8a05-1aa4373e2901 Correlation ID: 6af1575a-87c7-40e8-bc96-834d4b3e7b73 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,175:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgv0115bc_CHG1234567_20240726185646    ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 13c3fe41-27ba-4a78-a51e-27ae4e442601 Correlation ID: c6cc03f4-7363-4a3c-af4d-469d4f3c7a4a Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,176:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgm011663_CHG1234567_20240726185904    ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 08290559-ae32-475b-8a05-1aa43b3e2901 Correlation ID: 19eaaca4-cb70-4b37-9757-9c209b62ac54 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,200:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-ESGH-PROD-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_pgm0116ad_CHG1234567_20240726184617        ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: c0d8aa7f-c93c-4fb5-aa4c-7edaccc71401 Correlation ID: d7640b71-c57a-4e12-a7f4-39f2c76f3303 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,204:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-ESGH-PROD-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_pgm011874_CHG1234567_20240726184557        ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 3616cf38-2bc5-4b5a-901c-b968eb9f2200 Correlation ID: c8ccd7e9-5548-476d-b3b6-4bc81e271ba7 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,251:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgv0118df_CHG1234567_20240726185725    ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: 1b08c91c-e196-4122-ae4a-4c7feb1a2001 Correlation ID: 98150bea-d2b2-4ac8-96ee-5d4be744b670 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,254:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-imws-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG1234567_dgm011bfb']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: b5eab602-085e-4eb1-a605-378343813b01 Correlation ID: 6f0a9edf-a4e1-4a6c-8ed5-01fec9e56502 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,326:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-ESGH-PROD-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_pgm011801_CHG1234567_20240726184536        ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: bd87c7b7-b25e-493b-9161-e9fcd5185900 Correlation ID: 2c41a1dd-fafa-4fc7-b11f-814660655182 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:26,404:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgm0111df_CHG1234567_20240726185745     ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: f42b01ed-dfc4-4146-8266-d2d641c61701 Correlation ID: f6cae170-fbb8-4f06-9e86-c3c17c5bf1b5 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:32,365:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011790_CHG1234567_20240726185607    ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: f42b01ed-dfc4-4146-8266-d2d641c61701 Correlation ID: f6cae170-fbb8-4f06-9e86-c3c17c5bf1b5 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:32,474:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185804']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: f42b01ed-dfc4-4146-8266-d2d641c61701 Correlation ID: f6cae170-fbb8-4f06-9e86-c3c17c5bf1b5 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:32,538:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011705_CHG1234567_20240726185529    ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: f42b01ed-dfc4-4146-8266-d2d641c61701 Correlation ID: f6cae170-fbb8-4f06-9e86-c3c17c5bf1b5 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:32,587:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011701_CHG1234567_20240726185511    ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: f42b01ed-dfc4-4146-8266-d2d641c61701 Correlation ID: f6cae170-fbb8-4f06-9e86-c3c17c5bf1b5 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:32,601:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185706     ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: f42b01ed-dfc4-4146-8266-d2d641c61701 Correlation ID: f6cae170-fbb8-4f06-9e86-c3c17c5bf1b5 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:32,623:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185433     ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: f42b01ed-dfc4-4146-8266-d2d641c61701 Correlation ID: f6cae170-fbb8-4f06-9e86-c3c17c5bf1b5 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:32,625:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185452     ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: f42b01ed-dfc4-4146-8266-d2d641c61701 Correlation ID: f6cae170-fbb8-4f06-9e86-c3c17c5bf1b5 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:39:32,630:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgm0114be_CHG1234567_20240726185627    ']. Error: ERROR: AADSTS50173: The provided grant has expired due to it being revoked, a fresh auth token is needed. The user might have changed or reset their password. The grant was issued on '2024-07-20T07:44:18.9107375Z' and the TokensValidFrom date (before which tokens are not valid) for this user is '2024-07-23T12:04:31.0000000Z'. Trace ID: f42b01ed-dfc4-4146-8266-d2d641c61701 Correlation ID: f6cae170-fbb8-4f06-9e86-c3c17c5bf1b5 Timestamp: 2024-07-26 11:39:23Z
+Interactive authentication is needed. Please run:
+az login --scope https://management.core.windows.net//.default
+
+2024-07-26 11:41:09,062:ERROR:An unexpected error occurred: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/workspaces/snapshot/v3-delete-snap.py", line 266, in main
+    removed_locks = check_and_remove_scope_locks(resource_groups)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/snapshot/v3-delete-snap.py", line 84, in check_and_remove_scope_locks
+    locks = json.loads(run_az_command(command))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2024-07-26 11:41:55,313:ERROR:An unexpected error occurred: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/workspaces/snapshot/v2-delete-snap.py", line 249, in main
+    removed_locks = check_and_remove_scope_locks(resource_groups)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/snapshot/v2-delete-snap.py", line 71, in check_and_remove_scope_locks
+    locks = json.loads(run_az_command(command))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2024-07-26 11:43:05,254:ERROR:An unexpected error occurred: Expecting value: line 1 column 1 (char 0)
+Traceback (most recent call last):
+  File "/workspaces/snapshot/delete-snap.py", line 239, in main
+    removed_locks = check_and_remove_scope_locks(resource_groups)
+                    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/workspaces/snapshot/delete-snap.py", line 71, in check_and_remove_scope_locks
+    locks = json.loads(run_az_command(command))
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/conda/lib/python3.12/json/decoder.py", line 355, in raw_decode
+    raise JSONDecodeError("Expecting value", s, err.value) from None
+json.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)
+
+2024-07-26 11:43:45,328:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgv0118df_CHG1234567_20240726185725    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgv0118df_CHG1234567_20240726185725' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgv0118df_CHG1234567_20240726185725' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:45,450:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-imws-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG1234567_dgm011bfb']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG1234567_dgm011bfb' under resource group 'az-core-nonprod-01-imws-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG1234567_dgm011bfb' under resource group 'az-core-nonprod-01-imws-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:46,377:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-ESGH-PROD-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_pgm0116ad_CHG1234567_20240726184617        ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_pgm0116ad_CHG1234567_20240726184617' under resource group 'AZ-CORE-PROD-01-ESGH-PROD-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_pgm0116ad_CHG1234567_20240726184617' under resource group 'AZ-CORE-PROD-01-ESGH-PROD-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:46,401:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgm01117e_CHG1234567_20240726185547    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgm01117e_CHG1234567_20240726185547' under resource group 'AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgm01117e_CHG1234567_20240726185547' under resource group 'AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:46,402:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgm011663_CHG1234567_20240726185904    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgm011663_CHG1234567_20240726185904' under resource group 'AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgm011663_CHG1234567_20240726185904' under resource group 'AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:46,432:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgv0115bc_CHG1234567_20240726185646    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgv0115bc_CHG1234567_20240726185646' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgv0115bc_CHG1234567_20240726185646' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:46,436:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgm0111df_CHG1234567_20240726185745     ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgm0111df_CHG1234567_20240726185745' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgm0111df_CHG1234567_20240726185745' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:46,852:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgv011bac_CHG1234567_20240726185844    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgv011bac_CHG1234567_20240726185844' under resource group 'AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgv011bac_CHG1234567_20240726185844' under resource group 'AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:51,410:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011701_CHG1234567_20240726185511    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011701_CHG1234567_20240726185511' under resource group 'AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011701_CHG1234567_20240726185511' under resource group 'AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:51,588:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgm0114be_CHG1234567_20240726185627    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgm0114be_CHG1234567_20240726185627' under resource group 'AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgm0114be_CHG1234567_20240726185627' under resource group 'AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:52,532:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185452     ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185452' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185452' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:52,581:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185433     ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185433' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185433' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:52,611:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011790_CHG1234567_20240726185607    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011790_CHG1234567_20240726185607' under resource group 'AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011790_CHG1234567_20240726185607' under resource group 'AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:52,616:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185706     ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185706' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185706' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:52,623:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185804']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185804' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185804' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:43:52,632:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011705_CHG1234567_20240726185529    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011705_CHG1234567_20240726185529' under resource group 'AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011705_CHG1234567_20240726185529' under resource group 'AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:03,505:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgm01117e_CHG1234567_20240726185547    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgm01117e_CHG1234567_20240726185547' under resource group 'AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgm01117e_CHG1234567_20240726185547' under resource group 'AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:06,229:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgv0115bc_CHG1234567_20240726185646    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgv0115bc_CHG1234567_20240726185646' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgv0115bc_CHG1234567_20240726185646' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:06,252:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgv011bac_CHG1234567_20240726185844    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgv011bac_CHG1234567_20240726185844' under resource group 'AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgv011bac_CHG1234567_20240726185844' under resource group 'AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:06,347:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgm011663_CHG1234567_20240726185904    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgm011663_CHG1234567_20240726185904' under resource group 'AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgm011663_CHG1234567_20240726185904' under resource group 'AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:06,408:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-ESGH-PROD-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_pgm011874_CHG1234567_20240726184557        ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_pgm011874_CHG1234567_20240726184557' under resource group 'AZ-CORE-PROD-01-ESGH-PROD-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_pgm011874_CHG1234567_20240726184557' under resource group 'AZ-CORE-PROD-01-ESGH-PROD-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:06,430:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_dgv0118df_CHG1234567_20240726185725    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_dgv0118df_CHG1234567_20240726185725' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_dgv0118df_CHG1234567_20240726185725' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:06,438:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgm0111df_CHG1234567_20240726185745     ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgm0111df_CHG1234567_20240726185745' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgm0111df_CHG1234567_20240726185745' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:06,523:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-ESGH-PROD-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_pgm011801_CHG1234567_20240726184536        ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_pgm011801_CHG1234567_20240726184536' under resource group 'AZ-CORE-PROD-01-ESGH-PROD-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_pgm011801_CHG1234567_20240726184536' under resource group 'AZ-CORE-PROD-01-ESGH-PROD-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:06,548:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-ESGH-PROD-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_pgm0116ad_CHG1234567_20240726184617        ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_pgm0116ad_CHG1234567_20240726184617' under resource group 'AZ-CORE-PROD-01-ESGH-PROD-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_pgm0116ad_CHG1234567_20240726184617' under resource group 'AZ-CORE-PROD-01-ESGH-PROD-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:06,576:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-imws-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG1234567_dgm011bfb']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG1234567_dgm011bfb' under resource group 'az-core-nonprod-01-imws-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG1234567_dgm011bfb' under resource group 'az-core-nonprod-01-imws-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:10,704:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgm0114be_CHG1234567_20240726185627    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgm0114be_CHG1234567_20240726185627' under resource group 'AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgm0114be_CHG1234567_20240726185627' under resource group 'AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:12,465:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185706     ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185706' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185706' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:12,763:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185452     ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185452' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185452' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:12,830:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011705_CHG1234567_20240726185529    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011705_CHG1234567_20240726185529' under resource group 'AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011705_CHG1234567_20240726185529' under resource group 'AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:12,841:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011701_CHG1234567_20240726185511    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011701_CHG1234567_20240726185511' under resource group 'AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011701_CHG1234567_20240726185511' under resource group 'AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:12,850:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185433     ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185433' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011702_CHG1234567_20240726185433' under resource group 'AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:12,862:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv011790_CHG1234567_20240726185607    ']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv011790_CHG1234567_20240726185607' under resource group 'AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv011790_CHG1234567_20240726185607' under resource group 'AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:46:12,862:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185804']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185804' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_qgv0118e0_CHG1234567_20240726185804' under resource group 'AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:05,955:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-fdfr-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_dgm0116b3']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_dgm0116b3' under resource group 'az-entapp-nonprod-01-fdfr-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_dgm0116b3' under resource group 'az-entapp-nonprod-01-fdfr-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:06,209:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-scsb-qa-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_qgm01194a']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm01194a' under resource group 'az-core-nonprod-01-scsb-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm01194a' under resource group 'az-core-nonprod-01-scsb-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:07,104:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/72f74a79-764f-41bb-9b4c-f9b4ffd06d4f/resourceGroups/az-entaks-nonprod-01-sp2k-qa-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_qgm01103f']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm01103f' under resource group 'az-entaks-nonprod-01-sp2k-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm01103f' under resource group 'az-entaks-nonprod-01-sp2k-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:07,110:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-scsb-qa-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_qgm011a73']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm011a73' under resource group 'az-core-nonprod-01-scsb-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm011a73' under resource group 'az-core-nonprod-01-scsb-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:07,139:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/72f74a79-764f-41bb-9b4c-f9b4ffd06d4f/resourceGroups/az-entaks-nonprod-01-dasc-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_dgm010f18']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_dgm010f18' under resource group 'az-entaks-nonprod-01-dasc-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_dgm010f18' under resource group 'az-entaks-nonprod-01-dasc-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:07,161:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/72f74a79-764f-41bb-9b4c-f9b4ffd06d4f/resourceGroups/az-entaks-nonprod-01-sp2k-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_dgm010fcd']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_dgm010fcd' under resource group 'az-entaks-nonprod-01-sp2k-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_dgm010fcd' under resource group 'az-entaks-nonprod-01-sp2k-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:07,172:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-spdf-qa-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_qgm010c44']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm010c44' under resource group 'az-entapp-nonprod-01-spdf-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm010c44' under resource group 'az-entapp-nonprod-01-spdf-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:07,214:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-scsb-qa-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_qgm011949']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm011949' under resource group 'az-core-nonprod-01-scsb-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm011949' under resource group 'az-core-nonprod-01-scsb-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:07,271:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/az-entaks-nonprod-02-wmas-qa-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_qgm011300']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm011300' under resource group 'az-entaks-nonprod-02-wmas-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_qgm011300' under resource group 'az-entaks-nonprod-02-wmas-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:10,500:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-scpl-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633130_dgm010c71']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_dgm010c71' under resource group 'az-core-nonprod-01-scpl-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633130_dgm010c71' under resource group 'az-core-nonprod-01-scpl-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:13,057:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/az-entaks-nonprod-02-esco-nonprod-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633500_qgm011917']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_qgm011917' under resource group 'az-entaks-nonprod-02-esco-nonprod-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_qgm011917' under resource group 'az-entaks-nonprod-02-esco-nonprod-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:14,248:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-irfi-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633500_qgm011993']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_qgm011993' under resource group 'az-entapp-nonprod-01-irfi-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_qgm011993' under resource group 'az-entapp-nonprod-01-irfi-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:14,786:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba4']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba4' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba4' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:15,074:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-irow-qa-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633500_qgv0152d0']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_qgv0152d0' under resource group 'az-entapp-nonprod-01-irow-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_qgv0152d0' under resource group 'az-entapp-nonprod-01-irow-qa-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:15,398:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba3']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba3' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba3' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:15,429:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011b91']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011b91' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011b91' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:15,450:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011b92']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011b92' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011b92' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:15,641:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011b97']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011b97' under resource group 'az-core-nonprod-01-ebax-perf-eastus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011b97' under resource group 'az-core-nonprod-01-ebax-perf-eastus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:15,678:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba5']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba5' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba5' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:18,946:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba6']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba6' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0632804_qgm011ba6' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:21,429:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011b91']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011b91' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011b91' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:22,320:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011b92']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011b92' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011b92' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:22,621:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-eastus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011b97']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011b97' under resource group 'az-core-nonprod-01-ebax-perf-eastus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011b97' under resource group 'az-core-nonprod-01-ebax-perf-eastus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:22,721:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba3']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba3' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba3' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:23,276:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/94ffda27-d9f9-4800-b347-c91b456c42f4/resourceGroups/AZ-ENTAPP-PROD-01-BITS-PROD-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_PATCH_pgm0114c3']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_pgm0114c3' under resource group 'AZ-ENTAPP-PROD-01-BITS-PROD-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_pgm0114c3' under resource group 'AZ-ENTAPP-PROD-01-BITS-PROD-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:23,333:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba4']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba4' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba4' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:23,397:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba5']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba5' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba5' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:23,415:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/94ffda27-d9f9-4800-b347-c91b456c42f4/resourceGroups/AZ-ENTAPP-PROD-01-BITS-PROD-WESTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_PATCH_pgm0116a5']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_pgm0116a5' under resource group 'AZ-ENTAPP-PROD-01-BITS-PROD-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_pgm0116a5' under resource group 'AZ-ENTAPP-PROD-01-BITS-PROD-WESTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:23,430:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/az-core-nonprod-01-ebax-perf-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba6']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba6' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_CHG0636740_qgm011ba6' under resource group 'az-core-nonprod-01-ebax-perf-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:24,245:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-MQ01-PROD-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_PATCH_pgm011900']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_pgm011900' under resource group 'AZ-CORE-PROD-01-MQ01-PROD-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_pgm011900' under resource group 'AZ-CORE-PROD-01-MQ01-PROD-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:24,503:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-MQ01-PROD-EASTUS-RG-01/providers/Microsoft.Compute/snapshots/RH_PATCH_pgm011901']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_PATCH_pgm011901' under resource group 'AZ-CORE-PROD-01-MQ01-PROD-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_PATCH_pgm011901' under resource group 'AZ-CORE-PROD-01-MQ01-PROD-EASTUS-RG-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:58,075:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-irow-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633500_dgv0117ad']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_dgv0117ad' under resource group 'az-entapp-nonprod-01-irow-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_dgv0117ad' under resource group 'az-entapp-nonprod-01-irow-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:58,148:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/72f74a79-764f-41bb-9b4c-f9b4ffd06d4f/resourceGroups/az-entaks-nonprod-01-psfs-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633500_dgm010f97']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_dgm010f97' under resource group 'az-entaks-nonprod-01-psfs-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_dgm010f97' under resource group 'az-entaks-nonprod-01-psfs-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+
+2024-07-26 11:48:58,173:ERROR:Command failed: ['az', 'snapshot', 'show', '--ids', '/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-irow-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633500_dgv0152cf']. Error: ERROR: (ResourceNotFound) The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_dgv0152cf' under resource group 'az-entapp-nonprod-01-irow-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+Code: ResourceNotFound
+Message: The Resource 'Microsoft.Compute/snapshots/RH_CHG0633500_dgv0152cf' under resource group 'az-entapp-nonprod-01-irow-dev-westus-rg-01' was not found. For more details please go to https://aka.ms/ARMResourceNotFoundFix
+

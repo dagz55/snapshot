@@ -1,0 +1,95 @@
+CHG1234567
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011702
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01
+VM name: qgv011702
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011702
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv0118e0
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01
+VM name: qgv0118e0
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv0118e0
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011701
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01
+VM name: qgv011701
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011701
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011705
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01
+VM name: qgv011705
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXMBP-QA-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011705
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/ebse-sentinel-dev-app-vm-dgm01117e
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01
+VM name: dgm01117e
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-EBSE-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/ebse-sentinel-dev-app-vm-dgm01117e
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011790
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01
+VM name: qgv011790
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011790
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/rxaa-rxdata-qa1-web-vm-qgm0114be
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01
+VM name: qgm0114be
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAA-QA1-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/rxaa-rxdata-qa1-web-vm-qgm0114be
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv0115bc
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01
+VM name: dgv0115bc
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv0115bc
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011702
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01
+VM name: qgv011702
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXAH-QA-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv011702
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv0118df
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01
+VM name: dgv0118df
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv0118df
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgm0111df
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01
+VM name: qgm0111df
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgm0111df
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv0118e0
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01
+VM name: qgv0118e0
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXCO-QA-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/qgv0118e0
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv011bac
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01
+VM name: dgv011bac
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv011bac
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/rxec-pdxdeluxe-dev-app-vm-dgm011663
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01
+VM name: dgm011663
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/rxec-pdxdeluxe-dev-app-vm-dgm011663
+Creating snapshot for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/rxec-pdxdeluxe-dev-app-vm-dgm011664
+Subscription ID: bcf4edc6-1301-4194-b225-89ef5b975474
+Resource group name: AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01
+VM name: dgm011664
+Snapshot created successfully for VM with resource ID: /subscriptions/bcf4edc6-1301-4194-b225-89ef5b975474/resourceGroups/AZ-PHIAPP-NONPROD-01-RXEC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/rxec-pdxdeluxe-dev-app-vm-dgm011664
+Snapshot creation and expiration process completed successfully.
+Summary:
+Successful snapshots:
+RH_qgv011702_CHG1234567_20240726120021
+RH_qgv0118e0_CHG1234567_20240726120042
+RH_qgv011701_CHG1234567_20240726120101
+RH_qgv011705_CHG1234567_20240726120121
+RH_dgm01117e_CHG1234567_20240726120142
+RH_qgv011790_CHG1234567_20240726120202
+RH_qgm0114be_CHG1234567_20240726120221
+RH_dgv0115bc_CHG1234567_20240726120240
+RH_qgv011702_CHG1234567_20240726120259
+RH_dgv0118df_CHG1234567_20240726120320
+RH_qgm0111df_CHG1234567_20240726120400
+RH_qgv0118e0_CHG1234567_20240726120441
+RH_dgv011bac_CHG1234567_20240726120501
+RH_dgm011663_CHG1234567_20240726120520
+RH_dgm011664_CHG1234567_20240726120540
+Failed snapshots:

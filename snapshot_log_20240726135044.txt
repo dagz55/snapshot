@@ -1,0 +1,5 @@
+CHG1234567
+Snapshot creation and expiration process completed successfully.
+Summary:
+Successful snapshots:
+Failed snapshots:

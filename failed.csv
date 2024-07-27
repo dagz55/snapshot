@@ -1,0 +1,6 @@
+Subscription,Status,Snapshot,Error
+az-entaks-nonprod-01,valid,/subscriptions/72f74a79-764f-41bb-9b4c-f9b4ffd06d4f/resourceGroups/az-entaks-nonprod-01-psfs-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633500_dgm010f97,
+az-entaks-nonprod-01,failed,RH_CHG0633500_dgm010f97,Deletion failed
+az-entapp-nonprod-01,valid,/subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/az-entapp-nonprod-01-irow-dev-westus-rg-01/providers/Microsoft.Compute/snapshots/RH_CHG0633500_dgv0152cf,
+az-entapp-nonprod-01,non-existent,RH_CHG0633500_dgv0117ad,
+az-entapp-nonprod-01,failed,RH_CHG0633500_dgv0152cf,Deletion failed

@@ -1,0 +1,191 @@
+CHG1234567
+Creating snapshot for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/emju-emju-dev-database-vm-dgm011adc
+Subscription ID: 81d43de9-7921-4b5c-bce8-bcd2bec10a13
+Resource group name: AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01
+VM name: dgm011adc
+Snapshot created successfully for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/emju-emju-dev-database-vm-dgm011adc
+Creating snapshot for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/emju-emju-dev-database-vm-dgm011add
+Subscription ID: 81d43de9-7921-4b5c-bce8-bcd2bec10a13
+Resource group name: AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01
+VM name: dgm011add
+Snapshot created successfully for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/emju-emju-dev-database-vm-dgm011add
+Creating snapshot for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/emju-emju-dev-database-vm-dgm011ade
+Subscription ID: 81d43de9-7921-4b5c-bce8-bcd2bec10a13
+Resource group name: AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01
+VM name: dgm011ade
+Snapshot created successfully for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-EMJU-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/emju-emju-dev-database-vm-dgm011ade
+Creating snapshot for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-ITMW-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/itmw-itmws-dev-app-vm-dgm0114bc
+Subscription ID: 81d43de9-7921-4b5c-bce8-bcd2bec10a13
+Resource group name: AZ-ENTAKS-NONPROD-02-ITMW-DEV-WESTUS-RG-01
+VM name: dgm0114bc
+Snapshot created successfully for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-ITMW-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/itmw-itmws-dev-app-vm-dgm0114bc
+Creating snapshot for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-ITMW-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/itmw-itmws-dev-app-vm-dgm0114bd
+Subscription ID: 81d43de9-7921-4b5c-bce8-bcd2bec10a13
+Resource group name: AZ-ENTAKS-NONPROD-02-ITMW-DEV-WESTUS-RG-01
+VM name: dgm0114bd
+Snapshot created successfully for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-ITMW-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/itmw-itmws-dev-app-vm-dgm0114bd
+Creating snapshot for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-RI01-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/ri01-riaw-dev-batch-vm-dgm011578
+Subscription ID: 81d43de9-7921-4b5c-bce8-bcd2bec10a13
+Resource group name: AZ-ENTAKS-NONPROD-02-RI01-DEV-WESTUS-RG-01
+VM name: dgm011578
+Snapshot created successfully for VM with resource ID: /subscriptions/81d43de9-7921-4b5c-bce8-bcd2bec10a13/resourceGroups/AZ-ENTAKS-NONPROD-02-RI01-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/ri01-riaw-dev-batch-vm-dgm011578
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-AADQ2-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/aadq2-icedq-dev-app-vm-dgm011394
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-AADQ2-DEV-WESTUS-RG-01
+VM name: dgm011394
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-AADQ2-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/aadq2-icedq-dev-app-vm-dgm011394
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-AADQ2-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/aadq2-icedq-dev-app-vm-dgm0113e2
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-AADQ2-DEV-WESTUS-RG-01
+VM name: dgm0113e2
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-AADQ2-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/aadq2-icedq-dev-app-vm-dgm0113e2
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-DGDF-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgdf-edmrecon-dev-app-vm-dgm0115cd
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-DGDF-DEV-WESTUS-RG-01
+VM name: dgm0115cd
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-DGDF-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgdf-edmrecon-dev-app-vm-dgm0115cd
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-EMCL-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgm011570
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-EMCL-DEV-WESTUS-RG-01
+VM name: dgm011570
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-EMCL-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgm011570
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-ESAB-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgm010d32-test
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-ESAB-DEV-WESTUS-RG-01
+VM name: dgm010d32
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-ESAB-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgm010d32-test
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-ESED-SB-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esed-edis-sb-sandbox-vm-sgm010cfb
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-ESED-SB-WESTUS-RG-01
+VM name: sgm010cfb
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-ESED-SB-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esed-edis-sb-sandbox-vm-sgm010cfb
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-FDFR-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/fdfr-fdfrcloud-dev-batch-vm-dgm0116b3
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-FDFR-DEV-WESTUS-RG-01
+VM name: dgm0116b3
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-FDFR-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/fdfr-fdfrcloud-dev-batch-vm-dgm0116b3
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-HRLD-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv012d69
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-HRLD-DEV-WESTUS-RG-01
+VM name: dgv012d69
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-HRLD-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv012d69
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-IAVC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/iavc-infosec-dev-app-vm-dgm01187d
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-IAVC-DEV-WESTUS-RG-01
+VM name: dgm01187d
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-IAVC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/iavc-infosec-dev-app-vm-dgm01187d
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-IAVC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/iavc-infosec-dev-app-vm-dgm01187e
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-IAVC-DEV-WESTUS-RG-01
+VM name: dgm01187e
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-IAVC-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/iavc-infosec-dev-app-vm-dgm01187e
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-IROW-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv0117ad
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-IROW-DEV-WESTUS-RG-01
+VM name: dgv0117ad
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-IROW-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv0117ad
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-IROW-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv0152cf
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-IROW-DEV-WESTUS-RG-01
+VM name: dgv0152cf
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-IROW-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/dgv0152cf
+Creating snapshot for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-JAMFAD-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/jamfad-adcs-dev-app-vm-dgm011a74
+Subscription ID: eec3e2f3-252e-4401-b09b-d06c5c499c3a
+Resource group name: AZ-ENTAPP-NONPROD-01-JAMFAD-DEV-WESTUS-RG-01
+VM name: dgm011a74
+Snapshot created successfully for VM with resource ID: /subscriptions/eec3e2f3-252e-4401-b09b-d06c5c499c3a/resourceGroups/AZ-ENTAPP-NONPROD-01-JAMFAD-DEV-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/jamfad-adcs-dev-app-vm-dgm011a74
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESJA-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esja-jfrogartif-dev-app-vm-dgm011746
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESJA-DEV-EASTUS-RG-01
+VM name: dgm011746
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESJA-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esja-jfrogartif-dev-app-vm-dgm011746
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESJA-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esja-jfrogartif-dev-app-vm-dgm011747
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESJA-DEV-EASTUS-RG-01
+VM name: dgm011747
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESJA-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esja-jfrogartif-dev-app-vm-dgm011747
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESJA-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esja-jfrogartif-dev-app-vm-dgm011748
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESJA-DEV-EASTUS-RG-01
+VM name: dgm011748
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESJA-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esja-jfrogartif-dev-app-vm-dgm011748
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114cf
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01
+VM name: dgm0114cf
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114cf
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d0
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01
+VM name: dgm0114d0
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d0
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d1
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01
+VM name: dgm0114d1
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d1
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d2
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01
+VM name: dgm0114d2
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d2
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d3
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01
+VM name: dgm0114d3
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d3
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d4
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01
+VM name: dgm0114d4
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-admin-vm-dgm0114d4
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-master-vm-dgm011696
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01
+VM name: dgm011696
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-master-vm-dgm011696
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-slave-vm-dgm0116a2
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01
+VM name: dgm0116a2
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESNS-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/esns-dns-dev-slave-vm-dgm0116a2
+Creating snapshot for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESPR-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/espr-azmonitor-dev-managed-vm-dgm011197
+Subscription ID: 48fd4545-8d1b-4da2-b81c-b9e5a6552a61
+Resource group name: AZ-CORE-NONPROD-01-ESPR-DEV-EASTUS-RG-01
+VM name: dgm011197
+Snapshot created successfully for VM with resource ID: /subscriptions/48fd4545-8d1b-4da2-b81c-b9e5a6552a61/resourceGroups/AZ-CORE-NONPROD-01-ESPR-DEV-EASTUS-RG-01/providers/Microsoft.Compute/virtualMachines/espr-azmonitor-dev-managed-vm-dgm011197
+Snapshot creation and expiration process completed successfully.
+Summary:
+Successful snapshots:
+RH_dgm011adc_CHG1234567_20240726135720
+RH_dgm011add_CHG1234567_20240726135740
+RH_dgm011ade_CHG1234567_20240726135801
+RH_dgm0114bc_CHG1234567_20240726135821
+RH_dgm0114bd_CHG1234567_20240726135842
+RH_dgm011578_CHG1234567_20240726135901
+RH_dgm011394_CHG1234567_20240726135921
+RH_dgm0113e2_CHG1234567_20240726135942
+RH_dgm0115cd_CHG1234567_20240726140023
+RH_dgm011570_CHG1234567_20240726140043
+RH_dgm010d32_CHG1234567_20240726140103
+RH_sgm010cfb_CHG1234567_20240726140122
+RH_dgm0116b3_CHG1234567_20240726140143
+RH_dgv012d69_CHG1234567_20240726140203
+RH_dgm01187d_CHG1234567_20240726140223
+RH_dgm01187e_CHG1234567_20240726140244
+RH_dgv0117ad_CHG1234567_20240726140335
+RH_dgv0152cf_CHG1234567_20240726140354
+RH_dgm011a74_CHG1234567_20240726140414
+RH_dgm011746_CHG1234567_20240726140435
+RH_dgm011747_CHG1234567_20240726140454
+RH_dgm011748_CHG1234567_20240726140515
+RH_dgm0114cf_CHG1234567_20240726140537
+RH_dgm0114d0_CHG1234567_20240726140558
+RH_dgm0114d1_CHG1234567_20240726140620
+RH_dgm0114d2_CHG1234567_20240726140641
+RH_dgm0114d3_CHG1234567_20240726140702
+RH_dgm0114d4_CHG1234567_20240726140723
+RH_dgm011696_CHG1234567_20240726140744
+RH_dgm0116a2_CHG1234567_20240726140755
+RH_dgm011197_CHG1234567_20240726140815
+Failed snapshots:
