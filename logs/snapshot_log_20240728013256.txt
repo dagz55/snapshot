@@ -1,0 +1,5 @@
+CHG Number: chg1234567
+
+Processing VM: es01-mim-prod-app-vm-pgm010b78
+Resource ID: /subscriptions/5cdb8a38-5edf-4090-9e49-c28ecb16d982/resourceGroups/AZ-CORE-PROD-01-ES01-PROD-WESTUS-RG-01/providers/Microsoft.Compute/virtualMachines/es01-mim-prod-app-vm-pgm010b78,
+Subscription ID: 5cdb8a38-5edf-4090-9e49-c28ecb16d982
