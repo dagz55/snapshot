@@ -25,12 +25,12 @@ Before you begin, ensure you have the following:
 
 1. Clone this repository:
    ```
-   git clone https://github.com/rsuar29/awesome-azure-snapshot-creator.git
+   git clone https://github.albertsons.com/rsuar29/snapshot.git
    ```
 
 2. Navigate to the project directory:
    ```
-   cd azure-snapshot
+   cd snapshots/create-snap/
    ```
 
 3. Install required packages:
